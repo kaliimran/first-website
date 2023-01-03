@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+span a {
+    color: #f26533;
+}
+header span {
+    font-size: 28px;
+    padding-left: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+    cursor: pointer;
+}
+nav {
+    margin: auto;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+header {
+    background-color: rgba(128, 128, 128, 0.414);
+    height: 60px;
+    display: flex;
+}
+.button {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 80px;
+}
+.button button {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #2e528f;
+    color: white;
+    border-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* button hover */
+.button button:hover {
+    font-weight: 400;
+    background-color: whitesmoke;
+    color: #2e528f;
+    cursor: pointer;
+    /* transition: 0.3s; */
+    transition-duration: 500ms;
+}
+
+/* container image */
+.container {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.center {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    width: 30%;
+    height: 50%;
+    background-color: rgba(245, 245, 245, 0.515);
+}
+h2 {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    word-spacing: 10px;
+    font-weight: bold;
+}
+
+.center span {
+    color: #f26533;
+}
+.center p {
+    text-align: center;
+    color: black;
+    margin-top: -20px;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button1 button {
+    background-color: #f2663364;
+    color: black;
+    border-style: none;
+    padding: 13px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.button1 span {
+    margin-left: 12px;
+    color: black;
+    font-size: 20px;
+}
+/* Main */
+
+/* container1 */
+main {
+    margin-top: -20px;
+    height: 400px;
+    background-color: rgba(128, 128, 128, 0.471);
+}
+
+.shop-more {
+    position: absolute;
+    padding-top: 30px;
+    font-size: 30px;
+    padding-left: 45%;
+    padding-right: 35%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+.shop-more span {
+    color: #f26533;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
+.box img {
+    padding-top: 180px;
+    text-align: center;
+}
+.box1 p {
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-weight: 800;
+}
+.box1 img {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+.box1 p:hover {
+    color: #f26533;
+    text-decoration: underline;
+}
+
+/* Section */
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    min-height: 350px;
+    min-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+
+.card1 {
+    width: 30%;
+    height: 200px;
+}
+.card1 img {
+    padding: 15px 40px;
+    background-color: rgba(128, 128, 128, 0.178);
+}
+.card1 p {
+    max-width: 350px;
+    color: black;
+    font-size: 20px;
+    overflow-wrap: break-word;
+    margin-left: 120px;
+    line-height: 32px;
+}
+p span {
+    font-weight: bold;
+}
+
+h3 {
+    letter-spacing: 1.2px;
+    word-spacing: 3px;
+    font-size: 20px;
+}
+
+/* footer */
+
+footer {
+    background-color: #2e528f;
+    height: 600px;
+}
+.logo_copy {
+    padding-top: 80px;
+    text-align: center;
+}
+.logo_copy a {
+    font-size: 30px;
+    color: #f26533;
+    font-weight: bold;
+}
+.lorem_khaini p {
+    max-width: 550px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 25px;
+    padding: 5px;
+    color: white;
+}
+
+.fotani img {
+    padding-right: 20px;
+}
+.fotani {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.hrpor {
+    /* background-color: aqua; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /* margin-bottom: 20px; */
+    margin-top: 20px;
+}
+
+.hrpor a {
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.textdirect {
+    padding-right: 20px;
+}
